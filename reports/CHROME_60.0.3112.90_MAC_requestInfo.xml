@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="requestInfo"
+    errors="0" failures="1" hostname="" id="" package="requestInfo" skipped="0"
+    tests="1" time="10.52" timestamp="Mon, 14 Aug 2017 17:18:04 GMT">
+  
+    <testcase name="Request info " classname="requestInfo" time="10.52" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;main&gt; contains text: &quot;Thank you for your interest!&quot;.">    at Object.Request info  (/Users/davidcastro/Automation/tests/requestInfo.js:18:16)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

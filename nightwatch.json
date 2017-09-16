@@ -1,0 +1,66 @@
+{
+  "src_folders" : ["tests"],
+  "output_folder" : "reports",
+  "custom_commands_path" : "",
+  "custom_assertions_path" : "",
+  "page_objects_path" : "",
+  "globals_path" : "./data/data_for_requestinfo.js",
+
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "/Users/davidcastro/Automation/bin/selenium-server-standalone-3.4.0.jar",
+    "log_path" : "",
+    "port" : 4444,
+    "cli_args" : {
+      "webdriver.chrome.driver" : "/Users/davidcastro/Automation/Drivers/chromedriver",
+      "webdriver.gecko.driver" : "/Users/davidcastro/Automation/Drivers/geckodriver",
+      "webdriver.edge.driver" : ""
+    }
+  },
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "" // url to test,
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome", 
+        "marionette": true,
+         "javascriptEnabled": true,
+          "acceptSslCerts": true,
+          "browserName": "chrome",
+          "chromeOptions" : {
+            "args" : []
+          }
+
+      }
+
+    },
+     "prod" : {
+      "launch_url" : "",
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
+
+    "chrome" : {
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      }
+    },
+
+    "edge" : {
+      "desiredCapabilities": {
+        "browserName": "MicrosoftEdge"
+      }
+    }
+  }
+}
+
