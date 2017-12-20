@@ -20,7 +20,7 @@
 
   "test_settings" : {
     "default" : {
-      "launch_url" : "" // url to test,
+      "launch_url" : "" /* URL GOES HERE */
       "selenium_port"  : 4444,
       "selenium_host"  : "localhost",
       "silent": true,
@@ -42,7 +42,7 @@
 
     },
      "prod" : {
-      "launch_url" : "",
+      "launch_url" : "" /*  PROD URL GOES HERE */,
       "desiredCapabilities": {
         "browserName": "chrome",
         "javascriptEnabled": true,
